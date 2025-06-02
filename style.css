@@ -1,0 +1,96 @@
+body {
+  background-color: #f2d9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 20px;
+  background-color: white;
+  padding: 40px;
+}
+
+.flex-box {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.item {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  margin: 2px;
+}
+
+/* Individual flex settings */
+
+.box1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box3 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box4 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box5 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.box6 {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box7 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box8 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box9 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.box10 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box11 {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box12 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
